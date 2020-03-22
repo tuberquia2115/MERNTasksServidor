@@ -46,7 +46,6 @@ exports.crearUsuario = async (req, res) => {
             expiresIn: 3600 // 1 hora
         }, (error, token) => {
             if(error) throw error;
-
             // Mensaje de confirmación
             res.json({ token  });
         });

@@ -4,7 +4,7 @@
   "description": "MERNS api para merntsaks",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
+    "start": "node server.js",
     "dev": "nodemon ."
   },
   "author": "Jose Manuel tuberquia",
